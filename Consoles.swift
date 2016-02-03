@@ -6,6 +6,9 @@
 //  Copyright © 2016 Mary Kate Nawalaniec. All rights reserved.
 //
 
+
+
+//holds the class for Console information and an array called consoleLibrary to initiliaze fist tableview
 import Foundation
 //
 //  Console.swift

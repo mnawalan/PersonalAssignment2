@@ -45,7 +45,7 @@ var rowValue: Int!
             numOfRows = wiiLibrary.count
         }
         else{
-            numOfRows = nintendoLibrary.count
+            numOfRows = playstationLibrary.count
             
         }
         return numOfRows
@@ -62,7 +62,7 @@ var rowValue: Int!
             cell.textLabel?.text = "\(wiiLibrary[rowValue].name)"
         }
         else{
-            cell.textLabel?.text = "\(nintendoLibrary[rowValue].name)"
+            cell.textLabel?.text = "\(playstationLibrary[rowValue].name)"
             
         }
 
